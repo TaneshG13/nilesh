@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      MarkAdAspire: Dynamic marketing agency | accelerating business growth
+    </title>
+    <link rel="icon" type="image/x-icon" href="Assets/logo.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#"><div class="brand-title">MarkAdAspire</div></a>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-us">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="hero">
+        <div class="container">
+          <h1>Welcome to <span id="element"></span></h1>
+          <a href="#" class="primary-btn">Get Started!</a>
+        </div>
+      </div>
+      <div class="about-us sec-container" id="about-us">
+        <div class="left">
+          <h2>About Us</h2>
+          <p>
+            Accelerate your business growth with our dynamic marketing
+            solutions. At MarkAdAspire, we are dedicated to crafting tailored
+            marketing strategies, generating innovative leads, and providing
+            comprehensive marketing services to enhance your market presence and
+            drive measurable results. Partner with us and succeed in an
+            ever-evolving marketplace.
+          </p>
+        </div>
+        <div class="left">
+          <div>
+            <img src="Assets/Growth.jpg" alt="" width="80%" class="sec-image" />
+          </div>
+        </div>
+      </div>
+      <div class="services sec-container" id="services">
+        <div class="top">
+            <h2>Our Services</h2>
+        </div>
+        <div class="bottom">
+            <div class="card">Comprehensive Marketing Services</div>
+            <div class="card">Creative Advertisement</div>
+            <div class="card">Generating Innovative Leads</div>
+        </div>
+      </div>
+    </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="#"><img src="Assets/logo.jpg" alt="logo" /></a>
+        </div>
+        <div class="footer-section links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-us">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2024 MarkAdAspire. All rights reserved.
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["MarkAdAspire"],
+        typeSpeed: 100,
+      });
+    </script>
+  </body>
+</html>
